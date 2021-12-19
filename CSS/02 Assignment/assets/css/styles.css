@@ -1,0 +1,70 @@
+header {
+    position: relative;
+}
+
+header > img {
+    width: 200px;
+}
+
+header > ul {
+    position: absolute;
+    right: 40px;
+    bottom: 0;
+    top: 10px;
+    margin: auto;
+    height: 40px;
+    list-style: none;
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster', cursive;
+}
+
+header > ul > li {
+    display: inline;
+    padding: 40px 0 0 10px;
+}
+
+ul > li:hover {
+    cursor: pointer;
+    color: red;
+}
+
+
+main {
+    height: 100%;
+    position: relative;
+}
+
+main > nav {
+    position: absolute;
+    width: 150px;
+    background: blueviolet;
+    top: 0;
+    bottom: 0;
+}
+
+main > nav > ul > li {
+    list-style: none;
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster', cursive;
+    padding: 10px 0 10px 0;
+    color: white;
+}
+
+main > nav ul > li:hover {
+    cursor: pointer;
+    color: red;
+}
+
+main > section {
+    position: absolute;
+}
+
+section > p {
+    padding: 0 0 0 160px
+}
+
+section > img {
+    width: 300px;
+}

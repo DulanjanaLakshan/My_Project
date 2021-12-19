@@ -1,0 +1,25 @@
+body>section{
+    position: relative;
+    height: 300vh;
+}
+.Circle{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    z-index: 1;
+}
+#Circle_01{
+    border: 19px solid gray;
+    width: 260px;
+    height: 260px;
+    border-radius: 260px;
+}
+#Circle_02{
+    border: 19px solid red;
+    width: 230px;
+    height: 230px;
+    border-radius: 230px;
+}

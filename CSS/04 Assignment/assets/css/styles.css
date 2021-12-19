@@ -1,0 +1,61 @@
+body > section {
+    position: relative;
+    height: 1000px;
+    z-index: 0;
+}
+
+body > section > div {
+    position: sticky;
+    top: 0;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    z-index: 1;
+    color: white;
+    font-size: 20px;
+}
+
+body > section:nth-child(1) {
+    background-color: white;
+}
+
+body > section:nth-child(1) > div {
+    background-color: red;
+}
+
+body > section > p {
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+body > section:nth-child(2) {
+    background-color: aqua;
+}
+
+body > section:nth-child(2) > div {
+    background-color: blue;
+}
+
+body > section:nth-child(3) {
+    background-color: gray;
+}
+
+body > section:nth-child(3) > div {
+    background-color: black;
+}
+
+body > section:nth-child(4) {
+    background-color: red;
+}
+
+body > section:nth-child(4) > div {
+    background-color: chocolate;
+}

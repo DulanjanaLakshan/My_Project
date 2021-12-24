@@ -1,0 +1,41 @@
+body {
+    background-color: dodgerblue;
+}
+
+section {
+    width: 300px;
+    height: 300px;
+    border: 20px solid white;
+    border-radius: 100%;
+    border-top: 20px solid red;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: gray;
+}
+
+section > h2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: max-content;
+    height: max-content;
+    font-size: 50px;
+    color: white;
+}
+
+section:hover {
+    transform: rotate(360deg);
+    transition: all 5s;
+    cursor: pointer;
+}
+section:hover h2{
+    transform: rotate(-360deg);
+    transition: all 5s;
+}

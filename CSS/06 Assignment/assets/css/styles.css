@@ -1,0 +1,41 @@
+section {
+    width: 228px;
+    height: 490px;
+    top: 70px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    right: 180px;
+}
+
+section > div {
+    left: 0;
+    position: relative;
+    height: 40px;
+    background: #4d1da7;
+    color: white;
+    box-shadow: 2px 2px 8px 2px black;
+    transition-property: all;
+    transition-duration: 2s;
+}
+
+section > div > h3 {
+    margin: 0;
+    display: inline-block;
+    padding: 10px;
+
+}
+
+section > div > i {
+    position: absolute;
+    right: 0;
+    top: 8px;
+    font-size: 28px;
+}
+section>div:hover{
+    left: 180px;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 2s;
+}

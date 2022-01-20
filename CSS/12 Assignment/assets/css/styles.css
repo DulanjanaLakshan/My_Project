@@ -1,0 +1,13 @@
+#background{
+    background-image: url("../image/img1.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    margin: 0;
+    color: white;
+    text-shadow:2px 2px black;
+    font-size: 60px;
+}

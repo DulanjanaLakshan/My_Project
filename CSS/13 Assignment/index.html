@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap POS System</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/styles.css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="" id="POS">POS System</a>
+            <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                    class="navbar-toggler" data-bs-target="#navbarSupportedContent"
+                    data-bs-toggle="collapse" type="button">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a aria-current="page" class="nav-link" href="#" id="home_a">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a aria-current="page" class="nav-link" href="#" id="Order_a">Place Order</a>
+                    </li>
+                    <li class="nav-item">
+                        <a aria-current="page" class="nav-link" href="#" id="Customer_a">Customer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a aria-current="page" class="nav-link" href="#" id="Item_a">Item</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<main>
+    <section id="home">
+        <div class="bg-image" id="background">
+            <div class="position-absolute top-50 start-50 translate-middle">
+                <h1>This Is a POSH System.</h1>
+                <button class="btn btn-primary" type="button">Place Order</button>
+            </div>
+        </div>
+    </section>
+    <section id="item_section">
+        <div id="item_name"><h2>Item Manage...</h2></div>
+        <div class="container" id="text_f">
+            <form class="row g-3">
+                <div class="col-md-6">
+                    <label class="form-label" for="inputId">Item Id</label>
+                    <input class="form-control" id="inputId" type="text">
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label" for="inputName">Item Name</label>
+                    <input class="form-control" id="inputName" type="text">
+                </div>
+                <div class="col-md4">
+                    <label class="form-label" for="inputComment">Comment</label>
+                    <input class="form-control" id="inputComment" type="text">
+                </div>
+                <div class="col-6">
+                    <label class="form-label" for="inputQTY">QTY</label>
+                    <input class="form-control" id="inputQTY" type="text">
+                </div>
+                <div class="col-6">
+                    <label class="form-label" for="inputPrice">Price</label>
+                    <input class="form-control" id="inputPrice" type="text">
+                </div>
+                <div class="col-4" id="btn-1">
+                    <button class="btn btn-primary" type="submit">Save</button>
+                </div>
+                <div class="col-4" id="btn-2">
+                    <button class="btn btn-success" type="submit">Update</button>
+                </div>
+                <div class="col-4" id="btn-3">
+                    <button class="btn btn-danger" type="submit">Delete</button>
+                </div>
+            </form>
+        </div>
+        <div>
+            <div class="col" id="table">
+                <table class="table">
+                    <thead class="bg-primary text-white">
+                    <tr>
+                        <th>Item Code</th>
+                        <th>Item Name</th>
+                        <th>Item Qty</th>
+                        <th>Item Price</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>I001</td>
+                        <td>Lux</td>
+                        <td>200</td>
+                        <td>69</td>
+                    </tr>
+                    <tr>
+                        <td>I002</td>
+                        <td>Signal</td>
+                        <td>140</td>
+                        <td>120</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <section id="customer_section">
+        <div id="customer_name"><h2>customer Manage...</h2></div>
+        <div class="container" id="text_fe">
+            <form class="row g-3">
+                <div class="col-md-6">
+                    <label class="form-label" for="inputCId">customer Id</label>
+                    <input class="form-control" id="inputCId" type="text">
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label" for="inputCName">customer Name</label>
+                    <input class="form-control" id="inputCName" type="text">
+                </div>
+                <div class="col-md4">
+                    <label class="form-label" for="inputAddress">Address</label>
+                    <input class="form-control" id="inputAddress" type="text">
+                </div>
+                <div class="col-6">
+                    <label class="form-label" for="inputNO">Mobile NO</label>
+                    <input class="form-control" id="inputNO" type="text">
+                </div>
+                <div class="col-6">
+                    <label class="form-label" for="inputEmail">Email</label>
+                    <input class="form-control" id="inputEmail" type="email">
+                </div>
+                <div class="col-4" id="btn-C1">
+                    <button class="btn btn-primary" type="submit">Save</button>
+                </div>
+                <div class="col-4" id="btn-C2">
+                    <button class="btn btn-success" type="submit">Update</button>
+                </div>
+                <div class="col-4" id="btn-C3">
+                    <button class="btn btn-danger" type="submit">Delete</button>
+                </div>
+            </form>
+        </div>
+        <div>
+            <div class="col" id="tableC">
+                <table class="table">
+                    <thead class="bg-success text-white">
+                    <tr>
+                        <th>Item Code</th>
+                        <th>Item Name</th>
+                        <th>Item Qty</th>
+                        <th>Item Price</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>I001</td>
+                        <td>Lux</td>
+                        <td>200</td>
+                        <td>69</td>
+                    </tr>
+                    <tr>
+                        <td>I002</td>
+                        <td>Signal</td>
+                        <td>140</td>
+                        <td>120</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+</main>
+<script src="assets/js/script.js"></script>
+<script crossorigin="anonymous"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

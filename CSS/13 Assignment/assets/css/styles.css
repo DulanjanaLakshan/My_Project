@@ -1,0 +1,98 @@
+#background {
+    background-image: url("../image/h1.jpg");
+    height: 94.1vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    margin: 0;
+    color: white;
+    text-shadow: 2px 2px black;
+    font-size: 60px;
+}
+
+button {
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+#item_section {
+    position: relative;
+    height: 800px;
+    display: none;
+}
+
+#item_name {
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+#item_name>h2 {
+    font-size: 50px;
+}
+#text_f{
+    top: 140px;
+    position: relative;
+}
+#btn-1{
+    right: 220px;
+    position: absolute;
+    bottom: -40px;
+}
+#btn-2{
+    right: 110px;
+    position: absolute;
+    bottom: -40px;
+}
+#btn-3{
+    right: 0;
+    position: absolute;
+    bottom: -40px;
+}
+#table{
+    position: relative;
+    top: 265px;
+}
+
+
+#customer_section{
+    position: relative;
+    height: 800px;
+    display: none;
+}
+#customer_name {
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+#customer_name>h2{
+    font-size: 50px;
+}
+#text_fe{
+    top: 140px;
+    position: relative;
+}
+#tableC{
+    position: relative;
+    top: 265px;
+}
+#btn-C1{
+    right: 220px;
+    position: absolute;
+    bottom: -40px;
+}
+#btn-C2{
+    right: 110px;
+    position: absolute;
+    bottom: -40px;
+}
+#btn-C3{
+    right: 0;
+    position: absolute;
+    bottom: -40px;
+}
+
